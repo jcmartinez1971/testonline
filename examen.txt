@@ -1,66 +1,15 @@
-<q>1. Which bash configuration files are used for non-login bash shell sessions? (Choose two.) </q>
+<q>¿Cuál es la capital de Francia?</q>
+<opt>Madrid</opt>
+<opt>París</opt>
+<opt>Roma</opt>
+<opt>Berlín</opt>
+<ans>2</ans>
+<exp>París es la capital de Francia y es conocida por la Torre Eiffel.</exp>
 
-<opt>A. /etc/profile</opt>
-
-<opt>B. /etc/bashrc</opt>
-
-<opt>C. ~/.bashrc</opt>
-
-<opt>D. ~/.profile</opt>
-
-<ans>2,3</ans>
-<exp>B and C are correct. Both /etc/bashrc and ~/.bashrc are used to configure non-login
-shell sessions, although other files may be used on some distributions.
-A, D, and E are incorrect. The /etc/profile, ~/.profile, and ~/.bash_profile files are used to
-configure login shell sessions. (Domain 2: Systems Operation and Maintenance)</exp>
-
-<q>2. You need more information on the ls command. Which commands can be used to learn how to use this utility? (Choose two.)</q>
-
-<opt>A. ls --help</opt>
-
-<opt>B. help ls</opt>
-
-<opt>C. ls -h</opt>
-
-<opt>D. man ls</opt>
-<ans>4,1</ans>
-<exp>A and D are correct. ls --help and man ls will display help information for the ls
-command.
-B and C are incorrect. (Domain 5: Automation and Scripting)</exp>
-
-
-<q>3. You’ve opened the /var/opt/myapp/settings.txt file in the vi editor. You need to enter new text into the file. Which key should you press to switch into Insert mode from Normal or “Command” mode?</q>
-
-<opt>A. I</opt>
-
-<opt>B. A</opt>
-
-<opt>C. O</opt>
-
-<opt>D. R</opt>
-
-<ans>1</ans>
-<exp>A is correct. Press the Insert or I key to enter Insert mode in the vi editor.
-B, C, and D are incorrect. The A key is used to append text after the cursor. The O key
-opens a new line below, before allowing for text to be inserted. The R key is used to replace
-a single character, and the X key is used by the vi editor to delete a single character.
-(Domain 2: Systems Operation and Maintenance)</exp>
-
-
-
-<q>4. YAML files used to configure network cards to use DHCP or set up static IP addressing can be found where?</q>
-
-<opt>A. /etc/X11</opt>
-
-<opt>B. /etc/yum</opt>
-
-<opt>C. /etc/yum.repos.d</opt>
-
-<opt>D. /etc/netplan</opt>
-
-<ans>4</ans>
-<exp>D is correct. Save a network configuration inside the /etc/netplan/config.yaml file to
-automate the configuration at boot time.
-A, B, and C are incorrect. The /etc/X11 file is for X-Window GUI setups, and the
-/etc/yum and /etc/yum.repos.d files point to software installation repositories. (Domain 1:
-Hardware and System Configuration)</exp>
+<q>¿Qué es el HTML?</q>
+<opt>Un lenguaje de programación</opt>
+<opt>Un lenguaje de marcado</opt>
+<opt>Un sistema operativo</opt>
+<opt>Un navegador web</opt>
+<ans>2</ans>
+<exp>HTML es un lenguaje de marcado utilizado para estructurar páginas web.</exp>
