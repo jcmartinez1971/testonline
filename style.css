@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: none;  /* Ocultar todos los fieldsets por defecto */
+}
+
+fieldset.active {
+    display: block;  /* Mostrar solo el fieldset activo */
+}
+
+legend {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.respuesta-correcta {
+    color: green;
+    font-weight: bold;
+}
+
+.respuesta-incorrecta {
+    color: red;
+}
+
+.explicacion {
+    font-style: italic;
+    color: #555;
+}

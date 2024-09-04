@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen en Línea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Examen</h1>
+        <form id="form-examen">
+            <!-- Contenido del examen se generará aquí -->
+        </form>
+        <div id="navegacion">
+            <button onclick="cambiarPregunta(-1)">Anterior</button>
+            <button onclick="cambiarPregunta(1)">Siguiente</button>
+        </div>
+        <button id="submit-btn">Enviar Respuestas</button>
+        <div id="resultado" style="display: none;">
+            <h2>Resultados del Examen</h2>
+            <p id="puntuacion"></p>
+            <div id="respuestas-correctas"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
